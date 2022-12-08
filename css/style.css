@@ -1,0 +1,571 @@
+/* Global Style */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+p {
+    margin: 0;
+}
+
+/* Top Header Style */
+#top-header {
+    background-color: #e6272e;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-bottom: 1px solid #ec525a;
+
+}
+
+#logo h1{
+    color: #fff;
+    font-family: monospace;
+}
+
+#top-header .container-header {
+    width: 1145px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container-header div {
+    display: flex;
+    width: 125px;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.container-header div .search-bar {
+
+}
+
+#header-nav ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+
+#user-icon a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.container-header div input {
+    padding: 5px;
+    background: #e6272e;
+    border: 1px solid #ffb6b6;
+    color: white;
+    border-radius: 2px;
+}
+
+.container-header div input::placeholder {
+    color: #fff;
+    font-style: italic;
+    font-size: 0.65rem;
+    
+
+}
+
+#user-icon button {
+    background-color: #e6272e;
+    color: #fff;
+    border: 0.5px solid #f9bcbc;
+    border-radius: 3px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+/* Style Sub Header */
+ul {
+    margin: 0px;
+}
+
+#sub-header {
+    background-color: #e6272e;
+    display: flex;
+}
+
+#sub-header  ul{
+    width: 100%;
+    margin: 0px;
+    background-color: #e6272e;
+    list-style-type: none;
+    color: #fff;
+    text-align: center;
+}
+
+#sub-header ul li {
+    display: inline-block;
+    padding: 22px;
+    font-size: 11px;
+    font-weight: 600;
+    font-family: monospace;
+}
+
+/* First Section */
+.santa-run {
+    background-image: url("../img/santa-christmas.png");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.santa-run div h5 {
+    margin: 0px;
+    margin-right: 5px;
+    font-size: .9rem;
+    font-weight: bolder;
+    font-family: monospace;
+    color: #222222;
+}
+
+.santa-run div {
+    width: 270px;
+    border-top: 4px solid #cd0d0c;
+    position: absolute;
+    right: 743px;
+    bottom: 169px;
+}
+
+.santa-run div a{
+    display: inline-flex;
+    text-decoration: none;
+    color: #000;
+    justify-items: end;
+    padding: 20px 0px;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    margin-left: 105px;
+}
+
+/* Second-section/organize-product */
+.products {
+    display: flex;
+    justify-content: center;
+    padding: 70px 0px;
+    border-bottom: 1px solid #eeeeee
+}
+
+.organize-product {
+    display: flex;
+    width: 1145px;
+    justify-content: space-between;
+}
+
+.organize-product .xmas-product a h2 span {
+    font-weight: 300;
+}
+
+.organize-product .xmas-product a {
+    display: flex;
+    text-align: right;
+    justify-content: end;
+    text-decoration: none;
+    font-family: monospace;
+    color: #222222;
+    padding: 8px 0px;
+}
+
+.organize-product .xmas-product h2{
+    margin: 0px;
+}
+
+/* Third Section of Product */
+
+.product-category {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.organize-product-section-two {
+    padding: 70px 0px
+}
+
+.organize-product-section-two ul {
+    display: flex;
+    width: 1145px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+}
+
+.organize-product-section-two ul li{
+    list-style-type: none;
+    display: inline;
+    font-size: 0.85rem;
+    text-align: center;
+    font-weight: bold;
+    color: #ababab;
+    padding: 10px 20px;
+    font-family: monospace;
+}
+
+#container-product {
+    display: flex;
+    width: 1145px;
+    margin: 0px auto;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.yellow-star {
+    color: #f0c014;
+}
+
+.gray-star {
+    color: #e1e1e1;
+}
+
+.price-tag {
+    color: #c2c2c2;
+    font-size: .75rem;
+    font-family: monospace;
+}
+
+.align-center {
+    text-align: center;
+    margin-top: 18px;
+    margin-bottom: 28px;
+}
+
+
+.product-name {
+    font-family: monospace;
+    font-weight: 700;
+    color: #232323;
+}
+
+#xmas-banner {
+    display: flex;
+    width: 1145px;
+    margin: 0px auto;
+    justify-content: space-between;
+}
+
+#xmas-banner div {
+    justify-content: space-between;
+}
+
+/* SECTION THREE */
+
+.product-section-third {
+    background-color: #f4f4f4;
+    padding: 70px 0px;
+}
+
+.product-section-third h1 {
+    text-align: center;
+    font-family: monospace;
+    color: #6e6e6e;
+    font-weight: 300;
+    margin: 2px;
+    letter-spacing: 3px;
+}
+
+.product-section-third #red-underline {
+    width: 129px;
+    height: 3px;
+    background: red;
+    margin: 0px auto;
+    margin-bottom: 20px;
+}
+
+.product-section-third #product-sub {
+    display: flex;
+    width: 1145px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0px auto;
+}
+
+#product-sub .product-name {
+    margin: 0px;
+}
+
+/* SECTION FOURTH */
+
+.section-fourth {
+    padding: 70px 0px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.img-container {
+    display: flex;
+    width: 1145px;
+    margin: 0px auto;
+    justify-content: space-between;
+}
+
+.img-container .first-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* SECTION TESTIMONIAL STYLES */
+.section-testimonial {
+    padding-top: 70px;
+}
+
+.section-testimonial .testimonial {
+    display: flex;
+    flex-direction: column;
+    width: 1145px;
+    margin: 0px auto;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.testimonial > p {
+    width: 80%;
+    margin: 0px auto;
+    text-align: center;
+    color: #666666;
+    font-family: monospace;
+}
+
+.testimonial div {
+    margin: 50px auto;
+    width: 210px;
+    text-align: center;
+}
+
+.testimonial div p {
+    margin: 0px;
+    margin-top: 10px;
+    font-family: monospace;
+    font-weight: 600;
+    color: #222222;
+}
+
+.testimonial div span {
+    font-family: monospace;
+}
+
+.order-processes {
+    display: flex;
+    padding: 30px 0px;
+    width: 1145px;
+    margin: 10px auto;
+    justify-content: space-around;
+}
+
+.order-processes div p {
+    font-family: monospace;
+    font-weight: 600;
+}
+
+.order-processes div span {
+    font-family: monospace;
+    color: #666666;
+    font-size: .75rem;
+}
+
+.icon-process-order {
+    font-size: 38px;
+    color: #666666;
+}
+
+.process-order {
+    display: flex;
+    width: 276px;
+    color: #232323;
+    justify-content: space-around;
+}
+
+.footer-store-nix {
+    background-image: url("../img/06_home-christmas.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+
+.footer-store-container {
+    padding: 70px 0px;
+    display: flex;
+    width: 1145px;
+    justify-content: space-around;
+    margin: 0px auto;
+}
+
+.footer-store-container div {
+    color: #fff;
+    font-family: monospace;
+}
+
+.footer-store-container div p {
+    color: #e0e0e0;
+}
+
+.footer-store-container div ul {
+    padding: 0px;
+}
+
+.footer-store-container div ul li {
+    list-style-type: none;
+    color: #e0e0e0;
+    font-weight: 400;
+    padding: 4px;
+}
+
+.footer-store-nix-child {
+    background-color: #e6272e;
+}
+
+.footer-store-nix-child-container p {
+    font-family: monospace;
+    padding: 5px;
+    font-size: 0.75rem;
+    color: #fff;
+}
+
+.footer-store-nix-child .footer-store-nix-child-container {
+    padding: 15px 0px;
+    display: flex;
+    width: 1145px;
+    margin: 0px auto;
+    justify-content: space-between;
+}
+
+.bank-cards-img img {
+    padding: 0px 3px;
+}
+
+/* Media Query */
+@media screen and (max-width: 1175px) {
+    #top-header .container-header {
+        flex-wrap: wrap;
+        width: 789px;
+        margin: 0px auto;
+        justify-content: space-around;
+    }
+
+    .organize-product {
+        flex-wrap: wrap;
+        width: 789px;
+        margin: 0px auto;
+        justify-content: space-around;
+    }
+.organize-product-section-two ul {
+        width: 789px;
+}
+
+    #container-product {
+        flex-wrap: wrap;
+        width: 789px;
+        margin: 0px auto;
+        justify-content: space-around;
+    }
+    #container-product .product-name-and-price{
+        margin: 0px 10px;
+    }
+
+    #xmas-banner {
+    width: 789px;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+
+    .product-section-third #product-sub {
+        width: 789px;
+        justify-content: space-around;
+    }
+
+    .img-container {
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 789px;
+    }
+
+    .section-testimonial .testimonial {
+        width: 789px;
+    } 
+
+    .order-processes {
+        width: 789px;
+         flex-wrap: wrap;
+    } 
+
+    .order-processes .process-order {
+        padding: 10px 0px;
+    }
+    
+    .footer-store-container {
+        width: 789px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer-store-nix-child .footer-store-nix-child-container {
+        width: 789px;
+        justify-content: space-around;
+    }
+
+}
+
+@media screen and (max-width: 806px) {
+    #top-header .container-header { 
+        width: 535px;
+    }
+
+    .container-header #logo {
+        order: 1;
+    }
+    .container-header div {
+        order: 2;
+        width: auto;
+    }
+    .container-header #user-icon {
+        order: 3;
+    }
+
+    .product-name-price {
+        display: inline-block;
+    }
+
+    #container-product {
+        width: auto;
+    }
+
+    #xmas-banner {
+        width: auto;
+    }
+    #xmas-banner div img {
+        width: 100%
+    }
+
+    .product-section-third #product-sub {
+        width: auto;
+    }
+    .img-container {
+        width: auto;
+    }
+
+    .section-testimonial .testimonial {
+        width: auto;
+    }
+
+    .order-processes {
+        width: auto;
+    }
+
+    .footer-store-container {
+        width: auto;
+        justify-content: space-between;
+        padding: 25px;
+    }
+
+    .footer-store-nix-child .footer-store-nix-child-container {
+        width: auto;
+        padding: 15px;
+    }
+}
