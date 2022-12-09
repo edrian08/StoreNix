@@ -456,7 +456,7 @@ ul {
         justify-content: space-around;
     }
 .organize-product-section-two ul {
-        width: 789px;
+        width: auto;
 }
 
     #container-product {
@@ -548,6 +548,7 @@ ul {
     }
     .img-container {
         width: auto;
+        overflow: hidden;
     }
 
     .section-testimonial .testimonial {
